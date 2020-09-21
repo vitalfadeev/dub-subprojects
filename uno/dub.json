@@ -1,0 +1,15 @@
+{
+	"name"          : "uno",
+	"description"   : "Widgets Windows UI",
+	"authors"       : [ "Vital Fadeev" ],
+	"license"       : "proprietary",
+	"copyright"     : "Copyright © 2020, Vital Fadeev",
+	"targetType"    : "library",
+	"targetPath"	: "bin",
+    "importPaths"   : [ "import", "source" ],
+    "sourcePaths"   : [ "import", "source" ],
+	"dependencies": 
+    {
+	},
+    "versions"		: [ "Windows10" ]
+}

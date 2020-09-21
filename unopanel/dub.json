@@ -1,0 +1,17 @@
+{
+	"name"          : "unopanel",
+	"description"   : "Panel useable, beauty, fast!",
+	"authors"       : [ "Vital Fadeev" ],
+	"license"       : "proprietary",
+	"copyright"     : "Copyright © 2020, Vital Fadeev",
+    "targetType"    : "executable",
+    "targetName"    : "UnoPanel",
+	"targetPath"	: "bin",
+	"sourcePaths"   : [ "source" ],
+	"mainSourceFile": "source/main.d",
+	"dependencies": 
+    {
+		"unoshell:uno": { "path": "../uno" }
+	},
+    "versions"		: [ "Windows10" ]
+}

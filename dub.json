@@ -1,0 +1,29 @@
+{
+	"name"          : "unoshell",
+	"description"   : "Panel, Dock. Useable, beauty, fast!",
+	"authors"       : [ "Vital Fadeev" ],
+	"license"       : "proprietary",
+	"copyright"     : "Copyright © 2020, Vital Fadeev",
+    "targetType"    : "none",
+	"targetPath"	: "bin",
+	"dependencies": 
+    {
+		"unoshell:uno"      	 : "*",
+		"unoshell:unopanel" 	 : "*",
+		"unoshell:unohotkeys" 	 : "*"
+	},
+	"subPackages": 
+	[
+		"uno/",
+		"unopanel/",
+		"unohotkeys/"
+	],
+    "versions"		: [ "Windows10" ],
+	"copyFiles"		: 
+	[
+		"uno/bin/*.dll",
+		"unopanel/bin",
+		"unohotkeys/bin"
+	],
+	"postBuildCommands" : [ "move /Y *.dll bin/" ]
+}

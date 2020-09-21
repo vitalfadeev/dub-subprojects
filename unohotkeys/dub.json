@@ -1,0 +1,16 @@
+{
+	"name"          : "unohotkeys",
+	"description"   : "Hot keys",
+	"authors"       : [ "Vital Fadeev" ],
+	"license"       : "proprietary",
+	"copyright"     : "Copyright © 2020, Vital Fadeev",
+    "targetType"    : "executable",
+	"targetName"    : "UnoHotKeys",
+	"targetPath"	: "bin",
+	"mainSourceFile": "source/main.d",
+	"dependencies": 
+    {
+		"unoshell:uno": { "path": "../uno" }
+	},
+    "versions": [ "Windows10" ]
+}
