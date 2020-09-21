@@ -1,0 +1,14 @@
+.dub
+.vs
+.cache
+.data
+*.d-
+*.exe
+*.o
+*.obj
+*.lst
+*.lib
+*.log
+dub.selections.json
+bak
+doc
