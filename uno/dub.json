@@ -10,6 +10,10 @@
     "sourcePaths"   : [ "import", "source" ],
 	"dependencies": 
     {
+		"d-leveldb" : { "path": "./deps/d-leveldb" },
+		"leveldb"   : { "path": "./deps/leveldb"   }
 	},
-    "versions"		: [ "Windows10" ]
+    "versions"		: [ "Windows10" ],
+    "copyFiles-windows-x86"   : [ "./deps/leveldb/lib/win32/leveldb.dll" ],
+    "copyFiles-windows-x86_64": [ "./deps/leveldb/lib/win64/leveldb.dll" ]
 }

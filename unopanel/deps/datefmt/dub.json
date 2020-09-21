@@ -1,0 +1,22 @@
+{
+	"authors": [
+		"dhasenan"
+	],
+	"configurations": [
+		{
+			"name": "library",
+			"targetType": "library"
+		}
+	],
+	"copyright": "Copyright © 2017, dhasenan",
+	"description": "Datetime parsing and formatting",
+	"importPaths": [
+		"source/"
+	],
+	"license": "Ms-PL",
+	"name": "datefmt",
+	"sourcePaths": [
+		"source/"
+	],
+	"version": "1.0.4"
+}

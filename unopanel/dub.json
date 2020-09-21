@@ -11,6 +11,7 @@
 	"mainSourceFile": "source/main.d",
 	"dependencies": 
     {
+		"datefmt"     : { "path": "deps/datefmt" },
 		"unoshell:uno": { "path": "../uno" }
 	},
     "versions"		: [ "Windows10" ]

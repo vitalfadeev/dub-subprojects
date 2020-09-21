@@ -1,0 +1,19 @@
+{
+    "name": "leveldb",
+    "description": "LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
+    "homepage": "https://code.google.com/p/leveldb/",
+    "copyright": "Copyright © 2011 The LevelDB Authors. All rights reserved.",
+    "authors": [
+        "Byron Heads"
+    ],
+    "license": "public domain",
+    "description": "Leveldb D Deimos Bindings.",
+    "importPaths": ["."],
+    "targetType" : "sourceLibrary",
+    "sourcePaths" : [ "./deimos" ],
+    "libs" : ["leveldb"],
+    "lflags-windows-x86": ["\"$PACKAGE_DIR\\lib\\win32\\\""],
+    "lflags-windows-x86_64": ["\"/libpath:$PACKAGE_DIR\\lib\\win64\""],
+    "copyFiles-windows-x86": ["lib/win32/leveldb.dll"],
+    "copyFiles-windows-x86_64": ["lib/win64/leveldb.dll"]
+}
